@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.algorithm-list-container {
+  margin: 50px auto;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.algorithm-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.algorithm-list li {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.algorithm-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.algorithm-visualizer .visualization {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.algorithm-visualizer .data-item {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.task {
+  margin: 20px;
+}
+
+.task input {
+  margin-right: 10px;
+}
